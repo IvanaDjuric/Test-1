@@ -15,10 +15,10 @@ let proizvod = 1
     for(let i = K; i <= N; i++){
 
         if (K % 3 === 0) {
-            zbir = zbir + i
+            zbir = zbir + K
         }
         if (K % 3 !== 0 && K % 7 === 0) {
-            proizvod = proizvod * i
+            proizvod = proizvod * K
         }
         console.log("Zbir je: " + zbir, "Proizvod je: " + proizvod)
     }
